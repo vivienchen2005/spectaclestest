@@ -1,0 +1,39 @@
+- !<AssetImportMetadata/9b75c28c-2871-465c-9457-f005bff923d3>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 82255e09-35fd-4699-9777-e154ff50bf21
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 82255e09-35fd-4699-9777-e154ff50bf21
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    USE_EASY_LENS: ""
+  AssetDataMap:
+    JavaScriptAsset: !<own> 9b5d5651-8d7f-40c8-8e63-b6ec29cbe941
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/9b5d5651-8d7f-40c8-8e63-b6ec29cbe941>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 99a236fb-2b9b-4375-acaf-74ffcf5c91d0
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    bitmojiAnimation: false
+    textBubble: false
+  ScriptTypesHidden:
+    {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - bitmojiAnimation: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      textBubble: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

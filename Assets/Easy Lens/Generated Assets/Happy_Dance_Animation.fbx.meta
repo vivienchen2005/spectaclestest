@@ -126,7 +126,7 @@
   PackageType: LegacyPackage
   PackagePolicy: CanBeUnpacked
   ExtraData:
-    {}
+    USE_EASY_LENS: ""
   AssetDataMap:
     Scene: !<own> 127f5847-1e54-4165-8729-dd4f0d4f95ea
   DependentFiles:

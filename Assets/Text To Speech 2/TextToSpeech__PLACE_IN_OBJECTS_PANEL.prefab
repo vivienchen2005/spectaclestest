@@ -100,7 +100,7 @@
       tts: !<reference.TextToSpeechModule> 2a535112-bf32-46cc-8296-12216de4b7bc
       audio: !<reference.AudioComponent> c9f0286a-ca7b-431c-969d-5bfcef828b3b
       autoStyleSelector: true
-      voiceName: Sasha
+      voiceName: Sam
       voiceStyleSasha: 1
       voiceStyleSam: 1
       voicePace: !<float> 1.000000

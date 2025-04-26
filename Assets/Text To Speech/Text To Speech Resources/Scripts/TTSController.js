@@ -74,6 +74,7 @@ function getOptions() {
 
 
 function getTTSResults(text) {
+    print("HELLO")
     if (script.previewTTS) {
         print("Alert: Preview TTS Audio might be cut off by a new Audio. Uncheck the Preview TTS to disable the preview.");
     }
