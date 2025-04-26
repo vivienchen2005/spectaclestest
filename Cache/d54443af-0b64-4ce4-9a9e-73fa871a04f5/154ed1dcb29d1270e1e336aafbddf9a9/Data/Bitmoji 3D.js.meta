@@ -1,0 +1,94 @@
+- !<AssetImportMetadata/7efe1fa8-b08b-4352-953f-6c6946d14793>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 7a3c78c1-4ff4-41a1-9f38-a2b9e6360f03
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 7a3c78c1-4ff4-41a1-9f38-a2b9e6360f03
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 7432801c-3322-452f-8434-ee19587bf474
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<ScriptAssetData/7432801c-3322-452f-8434-ee19587bf474>
+  SvgIcon: |
+    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M33.4329 24.9334H14.6204C14.3535 24.9334 14.3516 25.2564 14.3516 25.2564C14.3516 30.9055 18.3865 35.4852 24.0266 35.4852C29.6667 35.4852 33.7016 30.9055 33.7016 25.2564C33.7016 25.2564 33.7003 24.9334 33.4329 24.9334ZM29.4016 14.4355C27.7392 14.4355 26.3916 15.9073 26.3916 17.9886C26.3916 20.0699 27.7392 21.5418 29.4016 21.5418C31.064 21.5418 32.4116 20.0699 32.4116 17.9886C32.4116 15.9073 31.064 14.4355 29.4016 14.4355ZM21.6079 19.7113C21.6079 17.6301 20.2602 15.9429 18.5979 15.9429C16.9355 15.9429 15.5879 17.6301 15.5879 19.7113V19.819C15.5879 19.819 15.6618 20.0929 15.7934 20.0169C16.2468 19.7553 17.3844 19.2807 18.5342 19.2807C19.7275 19.2807 20.9343 19.7656 21.4036 20.024C21.5343 20.0959 21.6079 19.819 21.6079 19.819V19.7113ZM39.9515 39.9957C39.1657 40.4807 38.2401 40.761 37.2491 40.761L30.3244 40.814C30.321 40.814 30.7482 40.8145 30.7447 40.8145C29.0131 40.8145 28.2589 41.2641 27.5851 42.0159L23.4644 47.2867C23.0676 47.7943 22.2529 47.5137 22.2529 46.8695V42.1608C22.2473 41.2443 21.6124 40.816 20.701 40.814L10.6966 40.8149C7.87794 40.8149 5.59033 38.5236 5.59033 35.7005V11.0977C5.59033 11.0048 5.59313 10.9127 5.59786 10.8209C5.70622 8.09428 7.94695 5.92944 10.6966 5.92944H37.2491C40.099 5.92944 42.4092 8.2433 42.4092 11.0977V35.7005C42.4092 37.5535 41.4249 39.1307 39.9515 39.9957Z" fill="#D5DFEA"/>
+    </svg>
+
+  Description: |-
+    Bitmoji 3D allows you to easily download the 3D avatar of a Snapchat user, their friends, or their AI assistant, and add it to the scene.
+    API usage
+    // script.onDownloaded.add((gltfRoot) => \{ ... \})) - add callback for successful Bitmoji 3D download 
+    
+    // script.onDownloadFailed.add((e) => \{...\})) - add callback for unsuccessful download
+    
+    // script.download - call to download avatar for user specified in component inputs
+    
+    // script.downloadAvatar() - download avatar for a user specified in component inputs
+    
+    // script.downloadAvatarForUser(snapchatUser) - download avatar for specific user
+    
+    // script.getUser() - get current user
+    
+    // script.getExtras () - get extras 
+    
+    // script.setRenderOrder(v) - set render order or all render mesh visuals
+    
+    // script.getRenderOrder() - get current render order
+    
+    // script.setShadowsEnabled(v) - enable or disable casting shadow
+    
+    // script.getShadowsEnabled - if shadows are enabled
+    
+    // script.setRenderLayer(v) - set render layer
+    
+    // script.getRenderLayer() - get current render layer
+  InternalVersion: 48
+  VersionMajor: 7
+  VersionMinor: 0
+  VersionPatch: 2
+  ComponentUid: 0005e0cc-4592-ac28-0000-000000067b6a
+  ExportUid: deca2573-c3b5-489b-9784-75aa455189eb
+  CurrentVisibility: Locked
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    autoDownload: false
+    bitmojiModule: true
+    bitmojiType: false
+    castShadow: false
+    friendIndex: false
+    friendsComponent: false
+    materialHolder: true
+    mixamoAnimation: false
+    printDebug: true
+    remoteMediaModule: true
+    renderOrder: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - bitmojiType: 0
+      friendsComponent: !<reference.Component> 00000000-0000-0000-0000-000000000000
+      friendIndex: 0
+      mode: default
+      bodyIndex: 0
+      alignToBody: false
+      characterSize: 1.300000
+      mixamoAnimation: false
+      autoDownload: true
+      castShadow: true
+      bodyTrackingPrefab: !<reference.ObjectPrefab> 3dfb5b45-29c6-473e-8c12-72f1112c95e7
+      remoteMediaModule: !<reference.RemoteMediaModule> cb5370c3-c865-4047-a19a-9c257a273029
+      bitmojiModule: !<reference.BitmojiModule> 4afa9cb5-c5b1-4d87-896d-0c414f0f4e5d
+      materialHolder: !<reference.Material> 2752e955-f12c-4169-9351-b10f00ef4267
+      renderOrder: false
+      overrideRenderOrder: false
+      printDebug: true
+  ScriptTypes:
+    -
+      {}
+  DeclarationFile: !<reference> ff7a4737-2b44-493f-9f43-3ec5f09bbfbc

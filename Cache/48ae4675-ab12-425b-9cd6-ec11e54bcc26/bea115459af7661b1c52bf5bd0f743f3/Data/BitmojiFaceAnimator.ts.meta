@@ -1,0 +1,169 @@
+- !<AssetImportMetadata/eb491d0f-01cd-486c-9776-be339439d9c7>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 75e2605f-b602-4245-b239-233c6089f07a
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 75e2605f-b602-4245-b239-233c6089f07a
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 358f51e2-4a06-4608-bd0c-d19f0cb55e00
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/358f51e2-4a06-4608-bd0c-d19f0cb55e00>
+  SvgIcon: |
+    <svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12.5 30C12.5 14.8122 24.8122 2.5 40 2.5H120C135.188 2.5 147.5 14.8122 147.5 30V100C147.5 115.188 135.188 127.5 120 127.5H103.333C100.629 127.5 97.997 128.377 95.8333 130L62.5 155V140C62.5 133.096 56.9036 127.5 50 127.5H40C24.8122 127.5 12.5 115.188 12.5 100V30Z" stroke="#EFC706" stroke-width="5"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M120 73.2196C120 93.5329 102.091 110 80 110C57.9086 110 40 93.5329 40 73.2196C40 72.1348 40.0511 71.061 40.1511 70C52.3017 70 61.0823 70.0166 69.7407 70.0329C82.9145 70.0578 95.8055 70.0821 119.853 70.0467C119.95 71.0925 120 72.1507 120 73.2196ZM105 50C113.284 50 120 43.2843 120 35C120 26.7157 113.284 20 105 20C96.7157 20 90 26.7157 90 35C90 43.2843 96.7157 50 105 50ZM63.1646 48.9221C60.8151 48.1187 58.0112 47.1598 55 47.1598C51.9888 47.1598 49.1849 48.1187 46.8354 48.9221C42.7209 50.3291 40 51.2595 40 45.7299C40 37.0425 46.7157 30 55 30C63.2843 30 70 37.0425 70 45.7299C70 51.2595 67.2791 50.3291 63.1646 48.9221Z" fill="#EFC706"/>
+    </svg>
+
+  Description: |-
+    The BitmojiFaceAnimator is a component designed to manage and animate a Bitmoji avatar's face through various predefined states. This component allows for the configuration of animation sequences, random animations, and explicit state transitions.
+    
+    Add this component to the same scene object the Bitmoji 3D component is attached to. 
+    
+    Public Methods: 
+    
+    setState(stateName: string, transitionDuration: number): void
+    Sets the current animation state to the specified stateName .
+    stateName : The name of the animation state to transition to.
+    transitionDuration : Duration of the transition to the new state. Uses default if not provided.
+    
+    getState(): string
+    Returns the current animation state name.
+    
+    restartSequence(): void
+    Restarts the animation sequence if the mode is set to PlaySequence .
+    
+    Simplified api functions for easy trigering with optional argument: 
+    
+    setStateIdle(transitionDuration?: number);
+    setStateAmused(transitionDuration?: number);
+    setStateAngry(transitionDuration?: number);
+    setStateConfused(transitionDuration?: number);
+    setStateCrying(transitionDuration?: number);
+    setStateCurious(transitionDuration?: number);
+    setStateHappy(transitionDuration?: number);
+    setStateLaughing(transitionDuration?: number);
+    setStateSad(transitionDuration?: number);
+    setStateScared(transitionDuration?: number);
+  InternalVersion: 14
+  VersionMajor: 1
+  VersionMinor: 1
+  VersionPatch: 0
+  ComponentUid: 69012cd9-b19a-405e-975b-a62057beb3ee
+  ExportUid: 2b65bf4c-5c7a-4e62-b04b-10ab41370e16
+  CurrentVisibility: Locked
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    alwaysReturnToIdle: false
+    animationAmused: true
+    animationAngry: true
+    animationConfused: true
+    animationCrying: true
+    animationCurious: true
+    animationHappy: true
+    animationIdle: true
+    animationLaughing: true
+    animationSad: true
+    animationScared: true
+    debug: false
+    defaultAnimation: false
+    defaultTransitionLength: false
+    duration: false
+    loopSequence: false
+    minMaxTime: false
+    mode: false
+    probAmused: false
+    probAngry: false
+    probConfused: false
+    probCrying: false
+    probCurious: false
+    probHappy: false
+    probIdle: false
+    probLaughing: false
+    probSad: false
+    probScared: false
+    textComponent: false
+    timestamps: false
+  ScriptTypesHidden:
+    AnimationStateManagerComponent: true
+  DefaultScriptInputs:
+    - mode: 0
+      defaultAnimation:
+        animName: Idle
+      animationAngry: !<reference.AnimationAsset> dc2c0744-058a-46b5-8050-50a9e476593c
+      textComponent: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      timestamps: !<float> 10.000000
+      animationAmused: !<reference.AnimationAsset> cc4f09ef-0b32-4355-9fa8-2d6d2aaf2f93
+      animationConfused: !<reference.AnimationAsset> d6eaa050-d943-4cfa-b2a9-e8008447c2d0
+      animationCrying: !<reference.AnimationAsset> 135a8797-eed9-4281-a802-accbc5255864
+      animationCurious: !<reference.AnimationAsset> a9a34bd1-cbc6-42cb-93f0-574e1ab2b11a
+      animationHappy: !<reference.AnimationAsset> cac7b427-a826-44a2-93da-ca5ed05988d1
+      animationIdle: !<reference.AnimationAsset> a8c5b83f-16ff-4d04-8900-9e53ea421762
+      animationLaughing: !<reference.AnimationAsset> 68fef791-31a9-4f8e-9c84-d42476edcd4d
+      animationSad: !<reference.AnimationAsset> 07e30c37-de1f-4339-bc2e-37d8f1373684
+      animationScared: !<reference.AnimationAsset> d76047ba-c727-45dd-96b8-213dcceea455
+      debug: false
+      defaultTransitionLength: 0.200000
+      probAmused: !<float> 1.000000
+      probAngry: !<float> 1.000000
+      probConfused: !<float> 0.000000
+      probCrying: !<float> 0.000000
+      probCurious: !<float> 1.000000
+      probHappy: !<float> 1.000000
+      probIdle: !<float> 1.000000
+      probLaughing: !<float> 1.000000
+      probSad: !<float> 0.000000
+      probScared: !<float> 0.000000
+      minMaxTime: !<Vec2> {x: 0.000000, y: 0.000000}
+      alwaysReturnToIdle: true
+      loopSequence: !<float> 10.000000
+      duration: !<float> 10.000000
+  ScriptTypes:
+    - AnimationStateManagerComponent: !<reference.ScriptAsset> a1ec4f6f-aa2a-406a-9aa2-6b603e952862
+  InputLines:
+    - // @typename AnimationStateManagerComponent
+    - '// @input int mode {"hint":"<b>Play One</b> - plays animation of choice. <br><b>Play Random</b> - randomly selects and plays one animation based on probability.<br><b>Play Sequence</b> - plays predefined sequence of animations.<br>", "widget":"combobox", "values":[{"label":"Play One", "value":0}, {"label":"Play Random", "value":1}, {"label":"Play Sequence", "value":2}]}'
+    - '// @input string defaultAnimation = "Idle" {"label":"Idle Animation", "widget":"combobox", "values":[{"label":"Idle", "value":"Idle"}, {"label":"Amused", "value":"Amused"}, {"label":"Angry", "value":"Angry"}, {"label":"Confused", "value":"Confused"}, {"label":"Crying", "value":"Crying"}, {"label":"Curious", "value":"Curious"}, {"label":"Happy", "value":"Happy"}, {"label":"Laughing", "value":"Laughing"}, {"label":"Sad", "value":"Sad"}, {"label":"Scared", "value":"Scared"}]}'
+    - '// @input bool alwaysReturnToIdle = true {"label":"Return To Idle", "hint":"Enter every state, play animation once and return to idle automatically. If disabled - once entered a non-idle state it will loop until the further change of state."}'
+    - "// @input float defaultTransitionLength = 0.4 {\"label\":\"Transition Duration\", \"hint\":\"Default transition duration, you may override this in setState function's argument\"}"
+    - '// @ui {"widget":"separator"}'
+    - '// @input vec2 minMaxTime = {4,6} {"showIf":"mode", "showIfValue":1}'
+    - '// @input float duration = 10 {"hint":"Duration of sequence. Make sure it is longer that your largest timestamp!", "widget":"spinbox", "min":0, "max":1000, "step":0.1, "showIf":"mode", "showIfValue":2}'
+    - '// @input bool loopSequence = true {"hint":"Play sequence in a loop", "showIf":"mode", "showIfValue":2}'
+    - /*
+    - "@typedef AnimationTimestamp"
+    - "@property {float} time "
+    - '@property {string} faceAnimState {"label":"Animation", "widget":"combobox", "values":[{"label":"Idle", "value":"Idle"}, {"label":"Amused", "value":"Amused"}, {"label":"Angry", "value":"Angry"}, {"label":"Confused", "value":"Confused"}, {"label":"Crying", "value":"Crying"}, {"label":"Curious", "value":"Curious"}, {"label":"Happy", "value":"Happy"}, {"label":"Laughing", "value":"Laughing"}, {"label":"Sad", "value":"Sad"}, {"label":"Scared", "value":"Scared"}]}'
+    - "*/"
+    - '// @input AnimationTimestamp[] timestamps {"showIf":"mode", "showIfValue":2}'
+    - '// @ui {"hint":"The higher the value, the more likely this animation is to be randomly selected. If the weight is 0, the animation will not occur.", "widget":"group_start", "label":"Occurrence Weights", "showIf":"mode", "showIfValue":1}'
+    - '// @input float probAmused = 1 {"label":"Amused", "widget":"slider", "min":0, "max":10, "step":1}'
+    - '// @input float probAngry {"label":"Angry", "widget":"slider", "min":0, "max":10, "step":1}'
+    - '// @input float probConfused = 1 {"label":"Confused", "widget":"slider", "min":0, "max":10, "step":1}'
+    - '// @input float probCrying = 1 {"label":"Crying", "widget":"slider", "min":0, "max":10, "step":1}'
+    - '// @input float probCurious = 1 {"label":"Curious", "widget":"slider", "min":0, "max":10, "step":1}'
+    - '// @input float probHappy = 1 {"label":"Happy", "widget":"slider", "min":0, "max":10, "step":1}'
+    - '// @input float probIdle = 1 {"label":"Idle", "widget":"slider", "min":0, "max":10, "step":1}'
+    - '// @input float probLaughing = 1 {"label":"Laughing", "widget":"slider", "min":0, "max":10, "step":1}'
+    - '// @input float probSad {"label":"Sad", "widget":"slider", "min":0, "max":10, "step":1}'
+    - '// @input float probScared {"label":"Scared", "widget":"slider", "min":0, "max":10, "step":1}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @input Asset.AnimationAsset animationAmused {"label":"Amused"}'
+    - '// @input Asset.AnimationAsset animationAngry {"label":"Angry"}'
+    - '// @input Asset.AnimationAsset animationConfused {"label":"Confused"}'
+    - '// @input Asset.AnimationAsset animationCrying {"label":"Crying"}'
+    - '// @input Asset.AnimationAsset animationCurious {"label":"Curious"}'
+    - '// @input Asset.AnimationAsset animationHappy {"label":"Happy"}'
+    - '// @input Asset.AnimationAsset animationIdle {"label":"Idle"}'
+    - '// @input Asset.AnimationAsset animationLaughing {"label":"Laughing"}'
+    - '// @input Asset.AnimationAsset animationSad {"label":"Sad"}'
+    - '// @input Asset.AnimationAsset animationScared {"label":"Scared"}'
+    - '// @ui {"widget":"separator"}'
+    - // @input bool debug
+    - '// @input Component.Text textComponent {"showIf":"debug", "showIfValue":true}'
