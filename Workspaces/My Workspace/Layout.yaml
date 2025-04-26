@@ -6,8 +6,6 @@ dock:
           - items:
               - persistentName: Snap.Plugin.Gui.SceneHierarchyEditor
                 Uuid: 6778142c-0629-4c2a-afc3-92a65ce29e1a
-              - persistentName: Snap.Plugin.Gui.SpectaclesMonitorPanel
-                Uuid: b0529995-2888-48e5-b4c8-35693a43210e
             type: section
             current: 0
           - items:
@@ -27,7 +25,7 @@ dock:
               - persistentName: Com.Snap.LensBasedEditors
                 Uuid: 124308f4-f5da-434e-8db0-df7fe88d6a0b
             type: section
-            current: 1
+            current: 0
           - items:
               - persistentName: Snap.Plugin.Gui.LoggerPanel
                 Uuid: 81de965d-0c94-4d28-82cf-901740003a1f
@@ -63,12 +61,31 @@ dock:
             Uuid: 9d187580-b229-468a-b444-ed4f9c915951
           - persistentName: Snap.Plugin.Gui.ScriptEditorPanel
             Uuid: 57466a4c-bc8e-493e-8701-53615a631f0d
+          - persistentName: Com.Snap.LensBasedEditors
+            Uuid: 2a319eed-aaa0-4ee9-bc46-9f75dd54009b
         type: section
         current: 0
     sizes:
       - 303
-      - 308
-      - 320
-      - 588
+      - 520
+      - 346
+      - 350
     type: splitter
     orientation: horizontal
+  windows:
+    - items:
+        - items:
+            - persistentName: Snap.Plugin.Gui.SpectaclesMonitorPanel
+              Uuid: b0529995-2888-48e5-b4c8-35693a43210e
+          type: section
+          current: 0
+      sizes:
+        - 118
+      type: splitter
+      orientation: vertical
+      geometry:
+        x: 89
+        y: 10
+        w: 320
+        h: 120
+      screen: \\.\DISPLAY1

@@ -20,7 +20,14 @@ function goToEnvironmentScene() {
     script.environmentOptionsScene.enabled = true;
 }
 
+function testButtonPress() {
+    print("✅ TEST BUTTON PRESSED!");
+}
+print("hi");
+
 // Run start when lens loads
 start();
+global.testButtonPress = testButtonPress;
+
 
 global.goToEnvironmentScene = goToEnvironmentScene;

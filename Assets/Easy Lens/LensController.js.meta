@@ -1,0 +1,39 @@
+- !<AssetImportMetadata/adec9b7a-2e25-4d37-ad40-9122cca63807>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 8e6b1c9b-6061-41d2-8aab-a6fd3d320041
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 8e6b1c9b-6061-41d2-8aab-a6fd3d320041
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    USE_EASY_LENS: ""
+  AssetDataMap:
+    JavaScriptAsset: !<own> 27784934-f621-4dc2-90f7-d6a9b5b061a4
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/27784934-f621-4dc2-90f7-d6a9b5b061a4>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: d9cda510-f33f-4cac-9003-4aebe1b53a4a
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    bitmojiAnimation: false
+    touchEvents: false
+  ScriptTypesHidden:
+    {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - bitmojiAnimation: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      touchEvents: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

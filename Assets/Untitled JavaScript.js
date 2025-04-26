@@ -1,0 +1,1 @@
+global.getTTSResults("Hello");
