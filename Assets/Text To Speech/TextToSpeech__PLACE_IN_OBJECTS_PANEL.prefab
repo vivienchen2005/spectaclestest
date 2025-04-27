@@ -1,34 +1,26 @@
-- !<ObjectPrefab/83ba9bda-7ee0-4eb4-bb76-4f5d67526e7b>
+- !<ObjectPrefab/74f5a33c-4c9c-474b-b69d-71ab8961c247>
   PackagePath: ""
   objects:
-    - !<own> edabfb6c-1a0e-459c-915c-56c8444ca820
+    - !<own> 1e1b2eac-b83f-4ffc-b941-d89a961a8631
   LazyLoading: false
   RetainAssets: true
-- !<ScriptComponent/0b30044e-95d1-43a2-95ce-283b007f713d>
+- !<SceneObject/1e1b2eac-b83f-4ffc-b941-d89a961a8631>
   PrefabRemaps:
     []
-  Name: TTSController
+  Name: TextToSpeech__PLACE_IN_OBJECTS_PANEL
   Enabled: true
-  ScriptAsset: !<reference> 8ea876b5-c415-484b-9eac-6ce88847b8bc
-  ScriptInputsDefault:
-    previewTTS: true
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      tts: !<reference.TextToSpeechModule> 2a535112-bf32-46cc-8296-12216de4b7bc
-      audio: !<reference.AudioComponent> d10d2470-eff9-420e-8d9e-bcac91b5c544
-      autoStyleSelector: true
-      voiceName: Sasha
-      voiceStyleSasha: 1
-      voiceStyleSam: 1
-      voicePace: !<float> 1.000000
-      previewTTS: false
-      previewText: Show me you love cats without telling me you love cats
-  ScriptTypes:
-    "":
-      {}
-- !<SceneObject/1387d3ba-eb6b-425d-a5d6-41fe4196c3b6>
+  Layers: 1048576
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2ec515fb-e70b-4a26-9687-1558675cd123
+    - !<own> b974bf20-1180-453a-9ede-20a8a17c6d7c
+  Components:
+    []
+- !<SceneObject/2ec515fb-e70b-4a26-9687-1558675cd123>
   PrefabRemaps:
     []
   Name: "TTS Controller [EDIT_ME]"
@@ -42,24 +34,49 @@
   Children:
     []
   Components:
-    - !<own> 0b30044e-95d1-43a2-95ce-283b007f713d
-    - !<own> d10d2470-eff9-420e-8d9e-bcac91b5c544
-- !<SceneObject/847bd44e-eda6-42d5-84c2-444ed9a72ce8>
+    - !<own> 40fd9a76-b2d1-4578-b19a-afa763d83075
+    - !<own> 9b97df65-74b8-4a34-90a4-642c7c71c7df
+- !<ScriptComponent/40fd9a76-b2d1-4578-b19a-afa763d83075>
   PrefabRemaps:
     []
-  Name: "TTS Example [DELETE_ME]"
+  Name: TTSController
   Enabled: true
-  Layers: 1
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
+  ScriptAsset: !<reference> c8372111-4495-432c-8a38-09c75e406a68
+  ScriptInputsDefault:
+    previewTTS: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      tts: !<reference.TextToSpeechModule> 1c358bb6-83f3-4988-9535-fcb72adeb681
+      audio: !<reference.AudioComponent> 9b97df65-74b8-4a34-90a4-642c7c71c7df
+      autoStyleSelector: true
+      voiceName: Sasha
+      voiceStyleSasha: 1
+      voiceStyleSam: 1
+      voicePace: !<float> 1.000000
+      previewTTS: false
+      previewText: Show me you love cats without telling me you love cats
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/606869ab-8811-4b10-96ac-6ed5fd61b09c>
+  PrefabRemaps:
     []
-  Components:
-    - !<own> e99a10d8-088f-4f41-a0f6-3f8a2f6b8d73
-- !<AudioComponent/d10d2470-eff9-420e-8d9e-bcac91b5c544>
+  Name: "TTSExample[DELETE_ME]"
+  Enabled: true
+  ScriptAsset: !<reference> 98428951-4e14-4e79-b460-9391e535a952
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      text: Provide any text input
+  ScriptTypes:
+    "":
+      {}
+- !<AudioComponent/9b97df65-74b8-4a34-90a4-642c7c71c7df>
   PrefabRemaps:
     []
   Name: Audio
@@ -76,35 +93,18 @@
   MaxDistance: 100.000000
   EnableDirectivityEffect: false
   EnablePositionEffect: false
-- !<ScriptComponent/e99a10d8-088f-4f41-a0f6-3f8a2f6b8d73>
+- !<SceneObject/b974bf20-1180-453a-9ede-20a8a17c6d7c>
   PrefabRemaps:
     []
-  Name: "TTSExample[DELETE_ME]"
+  Name: "TTS Example [DELETE_ME]"
   Enabled: true
-  ScriptAsset: !<reference> 3d9d80ac-bb48-4845-8862-b36199cda270
-  ScriptInputsDefault:
-    {}
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      text: Hello my name is vivien
-  ScriptTypes:
-    "":
-      {}
-- !<SceneObject/edabfb6c-1a0e-459c-915c-56c8444ca820>
-  PrefabRemaps:
-    []
-  Name: TextToSpeech__PLACE_IN_OBJECTS_PANEL
-  Enabled: true
-  Layers: 1048576
+  Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
     rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   Children:
-    - !<own> 1387d3ba-eb6b-425d-a5d6-41fe4196c3b6
-    - !<own> 847bd44e-eda6-42d5-84c2-444ed9a72ce8
-  Components:
     []
+  Components:
+    - !<own> 606869ab-8811-4b10-96ac-6ed5fd61b09c

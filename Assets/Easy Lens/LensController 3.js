@@ -1,10 +1,6 @@
-// Main Controller
-//
-// Made with Easy Lens
 
 //@input Component.ScriptComponent bitmojiAnimation
 //@input Component.ScriptComponent textBubble
-
 
 try {
 
@@ -26,3 +22,5 @@ script.bitmojiAnimation.bitmoji1FacialExpression = "amused"; // or use "happy" b
   print("error in controller");
   print(e);
 }
+
+

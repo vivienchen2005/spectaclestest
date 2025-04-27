@@ -74,7 +74,6 @@ function getOptions() {
 
 
 function getTTSResults(text) {
-    print("HELLO")
     if (script.previewTTS) {
         print("Alert: Preview TTS Audio might be cut off by a new Audio. Uncheck the Preview TTS to disable the preview.");
     }
@@ -94,16 +93,6 @@ var previewTTSCompleteHandler = function(audioTrackAsset, wordInfos, phonemeInfo
     print("TTS Preview Event: On TTS Complete");  
     script.audio.audioTrack = audioTrackAsset;
     script.audio.play(1);
-    for (var i = 0; i < wordInfos.length; i++) {
-    print(
-      'word: ' +
-        wordInfos[i].word +
-        ', startTime: ' +
-        wordInfos[i].startTime.toString() +
-        ', endTime: ' +
-        wordInfos[i].endTime.toString()
-    );
-  }
 };
 
 function initialize() {  
@@ -127,4 +116,5 @@ function initialize() {
 
 initialize();
 
-global.getTTSResults = getTTSResults;
+script.getTTSResults = getTTSResults;
+

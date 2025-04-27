@@ -1,8 +1,8 @@
-- !<AssetImportMetadata/390e29db-bf2b-467f-b64f-df9c77c86821>
+- !<AssetImportMetadata/343756b6-dcae-4f88-a5b4-2e56e4ac714d>
   ImportedAssetIds:
-    TextToSpeechModule: !<reference> 2a535112-bf32-46cc-8296-12216de4b7bc
+    TextToSpeechModule: !<reference> 1c358bb6-83f3-4988-9535-fcb72adeb681
   ImporterName: TextToSpeechModuleImporter
-  PrimaryAsset: !<reference> 2a535112-bf32-46cc-8296-12216de4b7bc
+  PrimaryAsset: !<reference> 1c358bb6-83f3-4988-9535-fcb72adeb681
   PackageType: NotAPackage
   PackagePolicy: CannotBeUnpacked
   ExtraData:

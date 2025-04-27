@@ -27,25 +27,16 @@
   MaxVisibility: Editable
   ScriptInputsHidden:
     createButton: false
-    destinationReference: false
-    destroyDelay: false
-    lerpSpeed: false
-    prefabToInstantiate: false
+    refScript: false
   ScriptTypesHidden:
     {}
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   DefaultScriptInputs:
-    - prefabToInstantiate: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
-      destinationReference: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      createButton: !<MappingBased.Interactable> 00000000-0000-0000-0000-000000000000
-      destroyDelay: !<float> 5.000000
-      lerpSpeed: 0.100000
+    - createButton: !<MappingBased.Interactable> 00000000-0000-0000-0000-000000000000
+      refScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
   InputLines:
-    - '// @input Asset.ObjectPrefab prefabToInstantiate {"hint":"The prefab object we will instantiate when clicking the create button"}'
-    - '// @input SceneObject destinationReference {"hint":"The position reference the object will move to on left-hand pinch"}'
     - '// @input Interactable createButton {"hint":"The button that will create the prefab object"}'
-    - '// @input float destroyDelay = 5 {"hint":"The delay time in seconds before the instantiated object is destroyed"}'
-    - '// @input float lerpSpeed = 0.1 {"hint":"Speed at which the object moves to the destination on pinch"}'
+    - // @input Component.ScriptComponent refScript
