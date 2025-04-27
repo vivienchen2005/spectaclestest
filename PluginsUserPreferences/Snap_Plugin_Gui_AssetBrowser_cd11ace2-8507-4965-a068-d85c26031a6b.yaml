@@ -1,23 +1,19 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 1223
+    size: 1179
     values:
       - Base.png
       - Bitmoji 3D.lsc
       - Bitmoji Face Animator.lsc
       - Box.prefab
-      - Device Camera Texture.deviceCameraTexture
-      - Easy Lens
       - Easy Lens/Generated Assets
       - Easy Lens/Generated Assets/Happy_Dance_Animation.fbx
       - Easy Lens/Generated Assets/Happy_Dance_Animation.fbx/Animations
       - Easy Lens/Generated Assets/Happy_Dance_Animation.fbx/Animations/BaseLayer
       - Easy Lens/Generated Assets/Happy_Dance_Animation.fbx/Happy_Dance_Animation
       - Easy Lens/Generated Assets/Park_Background.png
-      - Easy Lens/Lens Components
       - Easy Lens/Lens Components/Bitmoji Animation.lsc
-      - Easy Lens/Lens Components/Text Bubble.lsc
       - Easy Lens/Lens Components/Touch_Events.lsc
       - Easy Lens/LensController 2.js
       - Easy Lens/LensController 3.js
@@ -37,14 +33,11 @@ CollapsedEntities:
       - Render Target.renderTarget
       - Scene.scene
       - SceneController.js
-      - SpectaclesInteractionKit
-      - SpectaclesInteractionKit.lspkg
-      - SpectaclesInteractionKit.lspkg/Assets
+      - SimpleVoiceML.ts
       - SpectaclesInteractionKit.lspkg/Assets/Audio
       - SpectaclesInteractionKit.lspkg/Assets/Audio/HoverAudioTrack.wav
       - SpectaclesInteractionKit.lspkg/Assets/Audio/TriggerEndAudioTrack.wav
       - SpectaclesInteractionKit.lspkg/Assets/Audio/TriggerStartAudioTrack.wav
-      - SpectaclesInteractionKit.lspkg/Assets/Materials
       - SpectaclesInteractionKit.lspkg/Assets/Materials/BaseHandVisualsMaterials
       - SpectaclesInteractionKit.lspkg/Assets/Materials/BaseHandVisualsMaterials/FingerHighlightLeft.mat
       - SpectaclesInteractionKit.lspkg/Assets/Materials/BaseHandVisualsMaterials/FingerHighlightRight.mat
@@ -96,7 +89,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit.lspkg/Assets/Materials/SliderMat/TargetOutlineMaterial.mat
       - SpectaclesInteractionKit.lspkg/Assets/Materials/SpritePreset.mat
       - SpectaclesInteractionKit.lspkg/Assets/Materials/TargetOutlineMaterial.mat
-      - SpectaclesInteractionKit.lspkg/Assets/Materials/Text3DDefault.mat
       - SpectaclesInteractionKit.lspkg/Assets/Meshes
       - SpectaclesInteractionKit.lspkg/Assets/Meshes/BoxMesh.mesh
       - SpectaclesInteractionKit.lspkg/Assets/Meshes/ButtonCapsuleMesh.mesh
@@ -119,7 +111,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit.lspkg/Assets/Meshes/SnapGhost_Mesh.mesh
       - SpectaclesInteractionKit.lspkg/Assets/Meshes/SphereMesh.mesh
       - SpectaclesInteractionKit.lspkg/Assets/Meshes/Uncheck.mesh
-      - SpectaclesInteractionKit.lspkg/Assets/Shaders
       - SpectaclesInteractionKit.lspkg/Assets/Shaders/BaseHandVisualsShaders
       - SpectaclesInteractionKit.lspkg/Assets/Shaders/BaseHandVisualsShaders/FingerHighlight.ss_graph
       - SpectaclesInteractionKit.lspkg/Assets/Shaders/BaseHandVisualsShaders/FingerTipGlow.ss_graph
@@ -155,20 +146,15 @@ CollapsedEntities:
       - SpectaclesInteractionKit.lspkg/Assets/Shaders/SliderShaders/Slider.ss_graph
       - SpectaclesInteractionKit.lspkg/Assets/Shaders/SpritePreset.ss_graph
       - SpectaclesInteractionKit.lspkg/Assets/Shaders/TargetOutline.ss_graph
-      - SpectaclesInteractionKit.lspkg/Assets/Shaders/Text3DDefault.ss_graph
       - SpectaclesInteractionKit.lspkg/Assets/Shaders/ToggleOff.ss_graph
       - SpectaclesInteractionKit.lspkg/Assets/Shaders/ToggleOn.ss_graph
       - SpectaclesInteractionKit.lspkg/Assets/Shaders/ToggleOnSelect.ss_graph
       - SpectaclesInteractionKit.lspkg/Assets/Shaders/simple_pbr.ss_graph
-      - SpectaclesInteractionKit.lspkg/Assets/Textures
       - SpectaclesInteractionKit.lspkg/Assets/Textures/2DBitmojiAvatar.png
       - SpectaclesInteractionKit.lspkg/Assets/Textures/Base.png
-      - SpectaclesInteractionKit.lspkg/Assets/Textures/BaseHandVisualsTextures
       - SpectaclesInteractionKit.lspkg/Assets/Textures/BaseHandVisualsTextures/Glow.png
       - SpectaclesInteractionKit.lspkg/Assets/Textures/BaseHandVisualsTextures/handMeshNewMask.png
       - SpectaclesInteractionKit.lspkg/Assets/Textures/BaseHandVisualsTextures/handMeshNewMaskColored.png
-      - SpectaclesInteractionKit.lspkg/Assets/Textures/BaseHandVisualsTextures/handMeshPinchTexture.png
-      - SpectaclesInteractionKit.lspkg/Assets/Textures/BaseHandVisualsTextures/handMeshTapTexture.png
       - SpectaclesInteractionKit.lspkg/Assets/Textures/BaseHandVisualsTextures/mask_fingertip.jpg
       - SpectaclesInteractionKit.lspkg/Assets/Textures/BaseHandVisualsTextures/mask_fingertip_colored.png
       - SpectaclesInteractionKit.lspkg/Assets/Textures/BaseHandVisualsTextures/mask_outline.jpg
@@ -196,7 +182,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit.lspkg/Assets/Textures/SIKContainerExampleImage.jpg
       - SpectaclesInteractionKit.lspkg/Assets/Textures/SIKLogo.png
       - SpectaclesInteractionKit.lspkg/Assets/Textures/ScrollBarRectangle.png
-      - SpectaclesInteractionKit.lspkg/Components
       - SpectaclesInteractionKit.lspkg/Components/Helpers
       - SpectaclesInteractionKit.lspkg/Components/Helpers/ButtonFeedback.ts
       - SpectaclesInteractionKit.lspkg/Components/Helpers/CapsuleMeshCustomizer.ts
@@ -248,8 +233,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit.lspkg/Components/Interaction/InteractorLineVisual/InteractorLineMaterial.mat
       - SpectaclesInteractionKit.lspkg/Components/Interaction/InteractorLineVisual/InteractorLineRenderer.ts
       - SpectaclesInteractionKit.lspkg/Components/Interaction/InteractorLineVisual/InteractorLineVisual.ts
-      - SpectaclesInteractionKit.lspkg/Components/UI
-      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame
       - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/ContainerFrame.ts
       - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Materials
       - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Materials/FrameMaterial.mat
@@ -272,7 +255,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Prefabs/FramePrefab.prefab
       - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Prefabs/container-button.prefab
       - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/README.md
-      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Textures
       - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Textures/close-icon-1.png
       - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Textures/close-icon.png
       - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Textures/container-button-matcap.jpg
@@ -359,8 +341,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit.lspkg/Core/MouseInteractor/MouseInteractor.ts
       - SpectaclesInteractionKit.lspkg/Decorators
       - SpectaclesInteractionKit.lspkg/Decorators/Singleton.ts
-      - SpectaclesInteractionKit.lspkg/Examples
-      - SpectaclesInteractionKit.lspkg/Examples/RocketWorkshop
       - SpectaclesInteractionKit.lspkg/Examples/RocketWorkshop/Materials
       - SpectaclesInteractionKit.lspkg/Examples/RocketWorkshop/Materials/Icons
       - SpectaclesInteractionKit.lspkg/Examples/RocketWorkshop/Materials/Icons/ModernBodyTube_icon.mat
@@ -473,7 +453,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit.lspkg/Examples/RocketWorkshop/Shaders/Planet_rings.ss_graph
       - SpectaclesInteractionKit.lspkg/Examples/RocketWorkshop/Shaders/Platform.ss_graph
       - SpectaclesInteractionKit.lspkg/Examples/RocketWorkshop/Shaders/Rocket.ss_graph
-      - SpectaclesInteractionKit.lspkg/Examples/RocketWorkshop/Textures
       - SpectaclesInteractionKit.lspkg/Examples/RocketWorkshop/Textures/A-icon.png
       - SpectaclesInteractionKit.lspkg/Examples/RocketWorkshop/Textures/B-icon.png
       - SpectaclesInteractionKit.lspkg/Examples/RocketWorkshop/Textures/C-icon.png
@@ -620,12 +599,10 @@ CollapsedEntities:
       - SpectaclesInteractionKit.lspkg/Utils/views/MeshView.ts
       - SpectaclesInteractionKit.lspkg/Utils/views/View.ts
       - SpectaclesInteractionKit.lspkg/package.native
-      - SpectaclesInteractionKit/Assets
       - SpectaclesInteractionKit/Assets/Audio
       - SpectaclesInteractionKit/Assets/Audio/HoverAudioTrack.wav
       - SpectaclesInteractionKit/Assets/Audio/TriggerEndAudioTrack.wav
       - SpectaclesInteractionKit/Assets/Audio/TriggerStartAudioTrack.wav
-      - SpectaclesInteractionKit/Assets/Materials
       - SpectaclesInteractionKit/Assets/Materials/BaseHandVisualsMaterials
       - SpectaclesInteractionKit/Assets/Materials/BaseHandVisualsMaterials/FingerHighlightLeft.mat
       - SpectaclesInteractionKit/Assets/Materials/BaseHandVisualsMaterials/FingerHighlightRight.mat
@@ -677,7 +654,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Assets/Materials/SliderMat/TargetOutlineMaterial.mat
       - SpectaclesInteractionKit/Assets/Materials/SpritePreset.mat
       - SpectaclesInteractionKit/Assets/Materials/TargetOutlineMaterial.mat
-      - SpectaclesInteractionKit/Assets/Materials/Text3DDefault.mat
       - SpectaclesInteractionKit/Assets/Meshes
       - SpectaclesInteractionKit/Assets/Meshes/BoxMesh.mesh
       - SpectaclesInteractionKit/Assets/Meshes/ButtonCapsuleMesh.mesh
@@ -700,7 +676,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Assets/Meshes/SnapGhost_Mesh.mesh
       - SpectaclesInteractionKit/Assets/Meshes/SphereMesh.mesh
       - SpectaclesInteractionKit/Assets/Meshes/Uncheck.mesh
-      - SpectaclesInteractionKit/Assets/Shaders
       - SpectaclesInteractionKit/Assets/Shaders/BaseHandVisualsShaders
       - SpectaclesInteractionKit/Assets/Shaders/BaseHandVisualsShaders/FingerHighlight.ss_graph
       - SpectaclesInteractionKit/Assets/Shaders/BaseHandVisualsShaders/FingerTipGlow.ss_graph
@@ -736,20 +711,15 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Assets/Shaders/SliderShaders/Slider.ss_graph
       - SpectaclesInteractionKit/Assets/Shaders/SpritePreset.ss_graph
       - SpectaclesInteractionKit/Assets/Shaders/TargetOutline.ss_graph
-      - SpectaclesInteractionKit/Assets/Shaders/Text3DDefault.ss_graph
       - SpectaclesInteractionKit/Assets/Shaders/ToggleOff.ss_graph
       - SpectaclesInteractionKit/Assets/Shaders/ToggleOn.ss_graph
       - SpectaclesInteractionKit/Assets/Shaders/ToggleOnSelect.ss_graph
       - SpectaclesInteractionKit/Assets/Shaders/simple_pbr.ss_graph
-      - SpectaclesInteractionKit/Assets/Textures
       - SpectaclesInteractionKit/Assets/Textures/2DBitmojiAvatar.png
       - SpectaclesInteractionKit/Assets/Textures/Base.png
-      - SpectaclesInteractionKit/Assets/Textures/BaseHandVisualsTextures
       - SpectaclesInteractionKit/Assets/Textures/BaseHandVisualsTextures/Glow.png
       - SpectaclesInteractionKit/Assets/Textures/BaseHandVisualsTextures/handMeshNewMask.png
       - SpectaclesInteractionKit/Assets/Textures/BaseHandVisualsTextures/handMeshNewMaskColored.png
-      - SpectaclesInteractionKit/Assets/Textures/BaseHandVisualsTextures/handMeshPinchTexture.png
-      - SpectaclesInteractionKit/Assets/Textures/BaseHandVisualsTextures/handMeshTapTexture.png
       - SpectaclesInteractionKit/Assets/Textures/BaseHandVisualsTextures/mask_fingertip.jpg
       - SpectaclesInteractionKit/Assets/Textures/BaseHandVisualsTextures/mask_fingertip_colored.png
       - SpectaclesInteractionKit/Assets/Textures/BaseHandVisualsTextures/mask_outline.jpg
@@ -777,7 +747,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Assets/Textures/SIKContainerExampleImage.jpg
       - SpectaclesInteractionKit/Assets/Textures/SIKLogo.png
       - SpectaclesInteractionKit/Assets/Textures/ScrollBarRectangle.png
-      - SpectaclesInteractionKit/Components
       - SpectaclesInteractionKit/Components/Helpers
       - SpectaclesInteractionKit/Components/Helpers/ButtonFeedback.ts
       - SpectaclesInteractionKit/Components/Helpers/CapsuleMeshCustomizer.ts
@@ -829,8 +798,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Components/Interaction/InteractorLineVisual/InteractorLineMaterial.mat
       - SpectaclesInteractionKit/Components/Interaction/InteractorLineVisual/InteractorLineRenderer.ts
       - SpectaclesInteractionKit/Components/Interaction/InteractorLineVisual/InteractorLineVisual.ts
-      - SpectaclesInteractionKit/Components/UI
-      - SpectaclesInteractionKit/Components/UI/ContainerFrame
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/ContainerFrame.ts
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/Materials
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/Materials/FrameMaterial.mat
@@ -853,7 +820,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/Prefabs/FramePrefab.prefab
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/Prefabs/container-button.prefab
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/README.md
-      - SpectaclesInteractionKit/Components/UI/ContainerFrame/Textures
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/Textures/close-icon-1.png
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/Textures/close-icon.png
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/Textures/container-button-matcap.jpg
@@ -940,8 +906,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Core/MouseInteractor/MouseInteractor.ts
       - SpectaclesInteractionKit/Decorators
       - SpectaclesInteractionKit/Decorators/Singleton.ts
-      - SpectaclesInteractionKit/Examples
-      - SpectaclesInteractionKit/Examples/RocketWorkshop
       - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials
       - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Icons
       - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Icons/ModernBodyTube_icon.mat
@@ -1054,7 +1018,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Examples/RocketWorkshop/Shaders/Planet_rings.ss_graph
       - SpectaclesInteractionKit/Examples/RocketWorkshop/Shaders/Platform.ss_graph
       - SpectaclesInteractionKit/Examples/RocketWorkshop/Shaders/Rocket.ss_graph
-      - SpectaclesInteractionKit/Examples/RocketWorkshop/Textures
       - SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/A-icon.png
       - SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/B-icon.png
       - SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/C-icon.png
@@ -1204,15 +1167,9 @@ CollapsedEntities:
       - Speech.js
       - SpeechManager.js
       - SpeechManager.ts
-      - Text To Speech
-      - Text To Speech/Text To Speech Resources
       - Text To Speech/Text To Speech Resources/Scripts
       - Text To Speech/Text To Speech Resources/Scripts/TTSController.js
       - "Text To Speech/Text To Speech Resources/Scripts/TTSExample[DELETE_ME].js"
-      - Text To Speech/Text To Speech Resources/TextToSpeech.textToSpeechModule
-      - Text To Speech/TextToSpeech__PLACE_IN_OBJECTS_PANEL.prefab
-      - Text3D 2.mat
-      - Text3D.mat
       - Untitled JavaScript 2.js
       - Untitled JavaScript 3.js
       - Untitled JavaScript 4.js
@@ -1225,5 +1182,4 @@ CollapsedEntities:
       - VoiceML_Declaration.ts
       - flat.ss_graph
       - pbr.ss_graph
-      - text_3d.ss_graph
   options: 4

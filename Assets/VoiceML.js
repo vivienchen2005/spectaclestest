@@ -1,21 +1,20 @@
 //@input Component.ScriptComponent textBubbleScript
 
-
-
-script.printHelloWorld = function () {
-    print('hello we are calling function from Voice ML');
-  };
-
 const voiceMLModule = require('LensStudio:VoiceMLModule');
 
-// Create listening options
+// --- 1. Listening options ---
 let options = VoiceML.ListeningOptions.create();
 options.speechRecognizer = VoiceMLModule.SpeechRecognizer.Default;
 options.languageCode = 'en_US';
 options.shouldReturnAsrTranscription = true;
 options.shouldReturnInterimAsrTranscription = true;
 
-// --- VoiceML Callbacks ---
+// --- 2. Functions ---
+script.printHelloWorld = function () {
+    print('🖐️ Stop button pressed - stopping VoiceML!');
+    voiceMLModule.stopListening();
+};
+
 let onListeningEnabledHandler = function () {
     print("✅ VoiceML Listening Started!");
     voiceMLModule.startListening(options);
@@ -23,7 +22,6 @@ let onListeningEnabledHandler = function () {
 
 let onListeningDisabledHandler = function () {
     print("🛑 VoiceML Listening Stopped!");
-    voiceMLModule.stopListening();
 };
 
 let onUpdateListeningEventHandler = function (eventArgs) {
@@ -43,12 +41,8 @@ let onListeningErrorHandler = function(eventErrorArgs) {
     print('❗ Speech Recognition Error: ' + eventErrorArgs.error + ' desc: ' + eventErrorArgs.description);
 };
 
-
-// --- Hook up VoiceML events ---
+// --- 3. Hook up VoiceML Events ---
 voiceMLModule.onListeningEnabled.add(onListeningEnabledHandler);
 voiceMLModule.onListeningDisabled.add(onListeningDisabledHandler);
 voiceMLModule.onListeningUpdate.add(onUpdateListeningEventHandler);
 voiceMLModule.onListeningError.add(onListeningErrorHandler);
-
-
-
