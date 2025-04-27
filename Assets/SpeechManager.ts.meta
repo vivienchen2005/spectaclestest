@@ -28,7 +28,9 @@
   ScriptInputsHidden:
     TTSController: false
     button: false
+    correctionsBubbleScript: false
     textBubbleScript: false
+    userBubbleScript: false
   ScriptTypesHidden:
     {}
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
@@ -36,6 +38,8 @@
     - button: !<MappingBased.PinchButton> 00000000-0000-0000-0000-000000000000
       TTSController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       textBubbleScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      userBubbleScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      correctionsBubbleScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
@@ -43,3 +47,5 @@
     - // @input PinchButton button
     - // @input Component.ScriptComponent TTSController
     - // @input Component.ScriptComponent textBubbleScript
+    - // @input Component.ScriptComponent userBubbleScript
+    - // @input Component.ScriptComponent correctionsBubbleScript

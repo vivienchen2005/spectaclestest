@@ -31,6 +31,11 @@ let onUpdateListeningEventHandler = function (eventArgs) {
 
     print('🗣️ Transcription: ' + eventArgs.transcription);
 
+    // API CALL with the transcript
+
+
+    // Get the Response from the API and send it to th text bubble
+
     // Update text bubble on FINAL speech
     if (eventArgs.isFinalTranscription && script.textBubbleScript) {
         script.textBubbleScript.text = eventArgs.transcription;

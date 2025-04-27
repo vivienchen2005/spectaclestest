@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 1179
+    size: 1183
     values:
       - Base.png
       - Bitmoji 3D.lsc
@@ -28,8 +28,10 @@ CollapsedEntities:
       - MaterialParams.png
       - Normal.png
       - PBR.mat
+      - PinchButton.lspkg/package.native
       - PinchButton.prefab
       - PinchButtonCapsuleExample.prefab
+      - QuizComponent.lspkg/package.native
       - Render Target.renderTarget
       - Scene.scene
       - SceneController.js
@@ -603,6 +605,7 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Assets/Audio/HoverAudioTrack.wav
       - SpectaclesInteractionKit/Assets/Audio/TriggerEndAudioTrack.wav
       - SpectaclesInteractionKit/Assets/Audio/TriggerStartAudioTrack.wav
+      - SpectaclesInteractionKit/Assets/Materials
       - SpectaclesInteractionKit/Assets/Materials/BaseHandVisualsMaterials
       - SpectaclesInteractionKit/Assets/Materials/BaseHandVisualsMaterials/FingerHighlightLeft.mat
       - SpectaclesInteractionKit/Assets/Materials/BaseHandVisualsMaterials/FingerHighlightRight.mat
@@ -715,6 +718,7 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Assets/Shaders/ToggleOn.ss_graph
       - SpectaclesInteractionKit/Assets/Shaders/ToggleOnSelect.ss_graph
       - SpectaclesInteractionKit/Assets/Shaders/simple_pbr.ss_graph
+      - SpectaclesInteractionKit/Assets/Textures
       - SpectaclesInteractionKit/Assets/Textures/2DBitmojiAvatar.png
       - SpectaclesInteractionKit/Assets/Textures/Base.png
       - SpectaclesInteractionKit/Assets/Textures/BaseHandVisualsTextures/Glow.png
@@ -1170,7 +1174,7 @@ CollapsedEntities:
       - Text To Speech/Text To Speech Resources/Scripts
       - Text To Speech/Text To Speech Resources/Scripts/TTSController.js
       - "Text To Speech/Text To Speech Resources/Scripts/TTSExample[DELETE_ME].js"
-      - Untitled JavaScript 2.js
+      - Text3D 5.mat
       - Untitled JavaScript 3.js
       - Untitled JavaScript 4.js
       - Untitled JavaScript.js
